@@ -1,0 +1,10 @@
+System.NotImplementedException: The method or operation is not implemented.
+   at FlatRedBall.TileCollisions.TileShapeCollectionLayeredTileMapExtensions.AddCollisionFromTilesWithType(TileShapeCollection solidCollision, Object map, String v1, Boolean v2) in D:\Projects\Beat_Bullet\Beat_Bullet\TileCollisions\TileShapeCollection.cs:line 1756
+   at Beat_Bullet.Screens.GameScreen.Initialize(Boolean addToManagers) in D:\Projects\Beat_Bullet\Beat_Bullet\Screens\GameScreen.Generated.cs:line 45
+   at Beat_Bullet.Screens.MainMenu.Initialize(Boolean addToManagers) in D:\Projects\Beat_Bullet\Beat_Bullet\Screens\MainMenu.Generated.cs:line 33
+   at FlatRedBall.Screens.ScreenManager.LoadScreen(String screen) in C:\BuildAgent\work\a22593881c1cbdfe\FlatRedBall\Engines\FlatRedBallXNA\FlatRedBall\Screens\ScreenManager.cs:line 436
+   at FlatRedBall.Screens.ScreenManager.Start(Type screenToStartWithType) in C:\BuildAgent\work\a22593881c1cbdfe\FlatRedBall\Engines\FlatRedBallXNA\FlatRedBall\Screens\ScreenManager.cs:line 341
+   at Beat_Bullet.Game1.Initialize() in D:\Projects\Beat_Bullet\Beat_Bullet\Game1.cs:line 88
+   at Microsoft.Xna.Framework.Game.DoInitialize()
+   at Microsoft.Xna.Framework.Game.Run(GameRunBehavior runBehavior)
+   at Beat_Bullet.Program.Main() in D:\Projects\Beat_Bullet\Beat_Bullet\Program.cs:line 20

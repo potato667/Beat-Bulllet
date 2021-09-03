@@ -1,0 +1,55 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Projects\\Beat_Bullet\\Beat_Bullet\\Beat_Bullet.csproj": {}
+  },
+  "projects": {
+    "D:\\Projects\\Beat_Bullet\\Beat_Bullet\\Beat_Bullet.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Projects\\Beat_Bullet\\Beat_Bullet\\Beat_Bullet.csproj",
+        "projectName": "Beat_Bullet",
+        "projectPath": "D:\\Projects\\Beat_Bullet\\Beat_Bullet\\Beat_Bullet.csproj",
+        "packagesPath": "C:\\Users\\ACER\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Beat_Bullet\\Beat_Bullet\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\ACER\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net471"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net471": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net471": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

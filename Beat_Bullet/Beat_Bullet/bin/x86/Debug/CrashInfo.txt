@@ -1,0 +1,16 @@
+System.Exception: The Screen that was just unloaded (GameScreen) did not clean up after itself:
+There are 33 AutomaticallyUpdatedSprites in the SpriteManager. See "FlatRedBall.SpriteManager.AutomaticallyUpdatedSprites"
+There are 33 Ordered (Drawn) Sprites in the SpriteManager.  See "FlatRedBall.SpriteManager.OrderedSprites"
+There are 33 Managed PositionedObjects in the SpriteManager.  See "FlatRedBall.SpriteManager.ManagedPositionedObjects"
+The first is an unnnamed entity of type Bullet
+There are 33 Automatically Updated Shapes in the ShapeManager.  See "FlatRedBall.Math.Geometry.ShapeManager.AutomaticallyUpdatedShapes"
+There are 33 visible Circles in the ShapeManager.  See "FlatRedBall.Math.Geometry.ShapeManager.VisibleCircles"
+   at FlatRedBall.Screens.ScreenManager.CheckAndWarnIfNotEmpty(Screen screen) in C:\BuildAgent\work\a22593881c1cbdfe\FlatRedBall\Engines\FlatRedBallXNA\FlatRedBall\Screens\ScreenManager.cs:line 838
+   at FlatRedBall.Screens.ScreenManager.Activity() in C:\BuildAgent\work\a22593881c1cbdfe\FlatRedBall\Engines\FlatRedBallXNA\FlatRedBall\Screens\ScreenManager.cs:line 223
+   at Beat_Bullet.Game1.Update(GameTime gameTime) in D:\Projects\Beat_Bullet\Beat_Bullet\Game1.cs:line 100
+   at Microsoft.Xna.Framework.Game.DoUpdate(GameTime gameTime)
+   at Microsoft.Xna.Framework.Game.Tick()
+   at Microsoft.Xna.Framework.SdlGamePlatform.RunLoop()
+   at Microsoft.Xna.Framework.Game.Run(GameRunBehavior runBehavior)
+   at Microsoft.Xna.Framework.Game.Run()
+   at Beat_Bullet.Program.Main() in D:\Projects\Beat_Bullet\Beat_Bullet\Program.cs:line 20

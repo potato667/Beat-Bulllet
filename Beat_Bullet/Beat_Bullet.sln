@@ -1,0 +1,37 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31605.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Beat_Bullet", "Beat_Bullet\Beat_Bullet.csproj", "{03CB551C-ECC1-4EDF-BB96-8411A06B97CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		DebugWindows|x64 = DebugWindows|x64
+		DebugWindows|x86 = DebugWindows|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03CB551C-ECC1-4EDF-BB96-8411A06B97CB}.Debug|x64.ActiveCfg = Debug|x64
+		{03CB551C-ECC1-4EDF-BB96-8411A06B97CB}.Debug|x64.Build.0 = Debug|x64
+		{03CB551C-ECC1-4EDF-BB96-8411A06B97CB}.Debug|x86.ActiveCfg = Debug|x86
+		{03CB551C-ECC1-4EDF-BB96-8411A06B97CB}.Debug|x86.Build.0 = Debug|x86
+		{03CB551C-ECC1-4EDF-BB96-8411A06B97CB}.DebugWindows|x64.ActiveCfg = DebugWindows|x86
+		{03CB551C-ECC1-4EDF-BB96-8411A06B97CB}.DebugWindows|x64.Build.0 = DebugWindows|x86
+		{03CB551C-ECC1-4EDF-BB96-8411A06B97CB}.DebugWindows|x86.ActiveCfg = DebugWindows|x86
+		{03CB551C-ECC1-4EDF-BB96-8411A06B97CB}.DebugWindows|x86.Build.0 = DebugWindows|x86
+		{03CB551C-ECC1-4EDF-BB96-8411A06B97CB}.Release|x64.ActiveCfg = Release|x86
+		{03CB551C-ECC1-4EDF-BB96-8411A06B97CB}.Release|x64.Build.0 = Release|x86
+		{03CB551C-ECC1-4EDF-BB96-8411A06B97CB}.Release|x86.ActiveCfg = Release|x86
+		{03CB551C-ECC1-4EDF-BB96-8411A06B97CB}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2AD2E216-1070-4FED-B72B-C94FFB5120C8}
+	EndGlobalSection
+EndGlobal
